@@ -6,7 +6,7 @@ function calculateArea(obj) {
     hasCorrectParameters = obj.w !== undefined && obj.h !== undefined && obj.l !== undefined;
     parameterIsNumber = typeof(obj.w) === 'number' && typeof(obj.h) === 'number' && typeof(obj.l) === 'number';
     parameterIsNotZero = obj.w !== 0 && obj.h !== 0 && obj.l !== 0;
-    parameterIsBiggerThanZero = obj.w > 0 && obj.w !== 0 && obj.w !== 0;
+    parameterIsBiggerThanZero = obj.w > 0 && obj.w > 0 && obj.w > 0;
 
     if(!isObject) {
         throw 'Error: input is not an object!';
