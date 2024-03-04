@@ -16,4 +16,3 @@ function calculateTrainingTime(obj) {
 }
 
 console.log(calculateTrainingTime({ start: 2, trainingsAmount: 10 }));
-//expect({ start: 2, trainingsAmount: 10 }).toEqual([2, 2, 4, 6, 10, 16, 26, 42, 68, 110]);
